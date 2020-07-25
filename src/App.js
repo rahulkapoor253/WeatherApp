@@ -1,15 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Searchbar from './Components/Searchbar';
 import './App.css';
 
-function App() {
+class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+
+
+  }
+
+  render() {
+
   return (
     <div className="App">
       <header className="App-header">
         
+        <h1 className="logo-title">Weather App</h1>
+        <Searchbar />
+
       </header>
     </div>
   );
+
+  }
+
 }
 
 export default App;

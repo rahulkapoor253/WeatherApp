@@ -1,0 +1,19 @@
+.input-field {
+    width: 40vh;
+    height: 32px;
+    border-radius: 16px;
+    padding-left: 12px;
+}
+
+.search-container {
+    margin-top: 4vh;
+}
+
+.search-btn{
+    margin-left: 8px;
+}
+
+.search-btn:hover {
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
