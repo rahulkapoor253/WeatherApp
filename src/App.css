@@ -20,4 +20,10 @@
   text-shadow: 0 4px 0 rgba(255, 255, 255, 0.1)
 }
 
+.error-head {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 8vh;
+}
 
